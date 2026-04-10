@@ -16,7 +16,7 @@ export const cvData: CVData = {
   },
 
   summary:
-    "Results-driven Software Engineer and Engineering Leader with 10+ years of experience architecting scalable systems and leading cross-functional engineering teams across fintech, retail, and enterprise domains. Proven track record in full-stack development, microservice architecture, cloud infrastructure, and agile delivery — driving technical strategy, establishing engineering best practices, and shipping high-impact digital products at scale.",
+    "Software Engineer and Tech Lead with 10+ years of experience. Developed software across fintech, retail, and enterprise — spanning mobile, web, backend, and cloud. Leads teams, shapes architecture decisions, and ships production software.",
 
   workExperience: [
     {
@@ -28,16 +28,16 @@ export const cvData: CVData = {
       endDate: "Present",
       bullets: [
         {
-          text: "Led cross-functional mobile engineering team as Tech Lead and Scrum Master — defined technical roadmap, owned architecture decisions, established coding standards, and conducted code reviews across Flutter and React Native applications serving ttb bank's digital-first customer base.",
+          text: "Led the mobile engineering team as Tech Lead and Scrum Master. Set the technical direction, reviewed architecture proposals, and wrote the coding standards the team follows daily.",
         },
         {
-          text: "Architected and shipped full-stack product features across React/Next.js frontends and Node.js/NestJS + Kotlin (Spring Boot) microservices; engineered Kubernetes/Docker CI/CD pipelines that improved deployment reliability and reduced release cycle time.",
+          text: "Shipped features across React/Next.js, Node.js/NestJS, and Kotlin Spring Boot services. Set up Kubernetes/Docker CI/CD pipelines that cut deployment failures and reduced the time to ship a release.",
         },
         {
-          text: "Drove AI tooling adoption across the SDLC — integrated Design System MCP, Figma MCP for automated design-to-code handoff, and an Atlassian Rovo AI-powered code review bot — reducing manual PR review overhead and accelerating feature delivery velocity.",
+          text: "Brought AI tools into our dev workflow: Design System MCP, Figma MCP, and Atlassian Rovo for automated code review. Cut the time engineers spend on PR review by removing repetitive feedback cycles.",
         },
         {
-          text: "Architected the ttb BusinessOne Design System end-to-end: published 50+ production-ready, accessible React components with design token governance and contribution standards, adopted across multiple product teams and reducing duplicated UI engineering effort org-wide.",
+          text: "Launched the ttb BusinessOne Design System from Figma: 50+ reusable React components with shared design token standards. All product teams adopted it, which removed a lot of repeated UI work across the company.",
         },
       ],
       technologies: [
@@ -55,10 +55,10 @@ export const cvData: CVData = {
       endDate: "2022-08",
       bullets: [
         {
-          text: "Architected and delivered a cross-platform mobile application (React Native) for condominium management serving residents and property administrators — built on serverless AWS infrastructure (Lambda, DynamoDB, API Gateway, S3) for high availability and cost efficiency.",
+          text: "Delivered a React Native app for condominium management, serving residents and property administrators. Deployed on serverless AWS (Lambda, DynamoDB, API Gateway, S3) for high availability.",
         },
         {
-          text: "Engineered scalable Node.js backend APIs and led agile delivery in cross-functional squads with product, design, and QA — achieving zero critical production incidents post-launch.",
+          text: "Wrote Node.js backend APIs and coordinated releases with product, design, and QA teams. Shipped to production with zero critical incidents in the months following launch.",
         },
       ],
       technologies: [
@@ -75,10 +75,10 @@ export const cvData: CVData = {
       endDate: "2019-07",
       bullets: [
         {
-          text: "Built and scaled a high-traffic retail e-commerce platform (React) with payment gateway integration, automated tax invoice generation, multilingual localization, and end-to-end order management for international customers.",
+          text: "Engineered a high-traffic retail e-commerce platform using React. Delivered payment gateway, tax invoicing, multilingual localization, and order management for international customers.",
         },
         {
-          text: "Partnered with UX designers and backend engineers to deliver pixel-perfect, performant interfaces — improving site usability and contributing to increased customer conversion for a nationally recognized retail brand.",
+          text: "Worked closely with UX designers and backend engineers to ship fast, detail-oriented interfaces that served heavy traffic from domestic shoppers and international duty-free customers.",
         },
       ],
       technologies: ["React", "JavaScript", "TypeScript"],
@@ -92,7 +92,7 @@ export const cvData: CVData = {
       endDate: "2016-12",
       bullets: [
         {
-          text: "Developed internal CRM and operational tooling (React) integrating RESTful APIs from backend systems — streamlining account management and issue resolution workflows for customer service teams across the organization.",
+          text: "Created internal CRM tools using React, wired to backend REST APIs. Helped customer service teams manage accounts and resolve customer issues faster.",
         },
       ],
       technologies: ["React", "JavaScript"],
@@ -162,7 +162,7 @@ export const cvData: CVData = {
       id: "ach-1",
       title: "1st Place — Southern Region Web Development Competition",
       description:
-        "Represented Prince of Songkla University at the regional level, winning first place and advancing to the national finals as a candidate for the country-level team.",
+        "Represented Prince of Songkla University at the regional level. Won first place and advanced to the national finals.",
     },
   ],
 
