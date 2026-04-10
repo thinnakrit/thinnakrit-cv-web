@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-black;
+  }
+}
+
+@media print {
+  /*
+   * Let @page own the physical margins. Every printed page gets:
+   *   top 14mm · right 18mm · bottom 12mm · left 18mm
+   * The Page containers reset their screen padding/sizing so content
+   * fills the @page content area cleanly without double-margins.
+   */
+  @page {
+    size: A4;
+    margin: 14mm 18mm 12mm 18mm;
+  }
+
+  html,
+  body {
+    background: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Each work/project/cert/edu card stays whole — no mid-entry splits */
+  article {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Section heading must not be orphaned at the bottom of a page */
+  h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Keep the section title glued to its first child */
+  section > *:first-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+}
