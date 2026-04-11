@@ -13,7 +13,7 @@ export function Header({ personal }: HeaderProps) {
   return (
     <header className="flex items-center gap-4 pb-3 border-b-2 border-navy">
       <div className="flex-shrink-0">
-        <div className="w-[52px] h-[52px] rounded-full overflow-hidden border-2 border-navy bg-gray-100">
+        <div className="w-[75px] h-[75px] rounded-full overflow-hidden border-2 border-navy bg-gray-100">
           <img
             src={profilePicture}
             alt={`${name} profile picture`}

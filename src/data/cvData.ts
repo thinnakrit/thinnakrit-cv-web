@@ -97,6 +97,23 @@ export const cvData: CVData = {
       ],
       technologies: ["React", "JavaScript"],
     },
+    {
+      id: "exp-5",
+      company: "Thaiware Communication Co., Ltd.",
+      role: "Full Stack Developer Intern",
+      location: "Bangkok, Thailand",
+      startDate: "2013-02",
+      endDate: "2013-07",
+      bullets: [
+        {
+          text: "Developed an e-commerce platform for software product sales using PHP and jQuery, covering product listings, cart, and checkout flows.",
+        },
+        {
+          text: "Designed and wired a real-time movie screening schedule system against Major Cineplex's data feed, giving users up-to-date showtime information.",
+        },
+      ],
+      technologies: ["PHP", "JavaScript", "jQuery", "MySQL"],
+    },
   ],
 
   education: [
