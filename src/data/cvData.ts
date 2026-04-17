@@ -22,13 +22,13 @@ export const cvData: CVData = {
     {
       id: "exp-1",
       company: "TMBThanachart Bank (ttb bank)",
-      role: "Software Engineer — Tech Lead & Scrum Master",
+      role: "Software Engineer",
       location: "Bangkok, Thailand",
       startDate: "2022-09",
       endDate: "Present",
       bullets: [
         {
-          text: "Led the mobile engineering team as Tech Lead and Scrum Master. Set the technical direction, reviewed architecture proposals, and wrote the coding standards the team follows daily.",
+          text: "Act led the mobile engineering team as Tech Lead and Scrum Master. Set the technical direction, reviewed architecture proposals, and wrote the coding standards the team follows daily.",
         },
         {
           text: "Shipped features across React/Next.js, Node.js/NestJS, and Kotlin Spring Boot services. Set up Kubernetes/Docker CI/CD pipelines that cut deployment failures and reduced the time to ship a release.",
